@@ -1,0 +1,41 @@
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: midnightblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    width: auto;
+    padding-bottom: 250px;
+}
+
+.btn-translate
+{
+    color: #fff;
+    background-color: darkorange;
+    border: 0px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn-translate:hover {
+    background-color: rgb(255, 102, 0);
+}
+
+.resultTrans {
+    color: midnightblue;
+    border: 2px solid midnightblue;
+    border-radius: 10px;
+    width: auto;
+    height: 250px;
+}

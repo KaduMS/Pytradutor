@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./static/index.css">
+    <title>PyTradutor</title>
+</head>
+<body>
+    <h1>PyTradutor</h1>
+    <form action="/translate" method="POST">
+        <input type="text" name="text_input" required>
+        <button class="btn-translate" type="submit">Traduzir</button>
+    </form>
+    <div>
+        <h2>Texto traduzido:</h2>
+    </div>
+    <div class="resultTrans">
+        {% if translated %}
+        <p>{{ translated }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
